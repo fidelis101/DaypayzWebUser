@@ -1,0 +1,75 @@
+.container{
+	position:relative;
+	text-align:center;
+}
+
+.username{
+	position:absolute;
+	top:2%;
+	left:34%;
+	text-align:center;
+	width:30%;
+	}
+	
+	.d1{
+	position:absolute;
+	top:37%;
+	left:7%;
+	text-align:center;
+	width:30%;
+	}
+	
+	.d2{
+	position:absolute;
+	top:37%;
+	left:62%;
+	text-align:center;
+	width:30%;
+	}
+	
+	.d3{
+	position:absolute;
+	top:74%;
+	left:-10%;
+	text-align:center;
+	width:30%;
+	}
+	
+	.d4{
+	position:absolute;
+	top:74%;
+	left:25%;
+	text-align:center;
+	width:30%;
+	}
+	
+	
+	.d5{
+	position:absolute;
+	top:74%;
+	left:46%;
+	text-align:center;
+	width:30%;
+	}
+	
+	
+	.d6{
+	position:absolute;
+	top:74%;
+	left:80%;
+	text-align:center;
+	width:30%;
+	}
+	.holder{
+	padding-left:10%;
+	padding-right:10%;
+	}
+	
+	 @media(min-width:768px) 
+	 {
+	    	.holder{
+	padding-left:10%;
+	padding-right:10%;
+	}
+	 
+	 }

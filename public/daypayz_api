@@ -1,0 +1,51 @@
+<?php
+    include('post_content.php');
+    $cardnumber = $_REQUEST['cardnumber'];
+    $provider = $_REQUEST['provider'];
+    
+    if($provider == "gotv")
+    {
+        //2028831159
+        $result = curl_get_contents("https://api.airvendng.net/vas/gotv/verify/?username=eeestores@yahoo.com&password=jesuslord@&smartcard=".$cardnumber);
+       
+        $obj = json_decode($result);
+        
+        if($objdetails->firstName =="")
+        {
+            echo $obj->details->lastName;
+        }else{
+            echo $obj->details->firstName;
+        }
+        
+        
+        
+    }
+    
+    if($provider == "dstv")
+    {
+        //2028831159
+        $result = curl_get_contents("https://api.airvendng.net/vas/dstv/verify/?username=eeestores@yahoo.com&password=jesuslord@&smartcard=".$cardnumber);
+       
+        $obj = json_decode($result);
+     if($obj->details->firstName =="")
+        {
+            echo $obj->details->lastName;
+        }else{
+            echo $obj->details->firstName;
+        }
+    }
+    
+    if($provider == "startimes")
+    {
+        $result = curl_get_contents("verify : https://api.airvendng.net/startimes/verify/?username=eeestores@yahoo.com&password=jesuslord@&smartcard=02110144711");
+        
+        $obj = json_decode($result);
+        
+        if($obj->details->accountStatus !== null)
+        {
+            $message = "<label>Status: '$obj->details->accountStatus' <label><br/><label>Firstname: '$obj->details->firstName' <label><br/><label>Lastname: '$obj->details->lastName' <label><br/><label>Invoice Period: $obj->details->invoicePeriod <label><br/>";
+        }
+        echo $message;
+    }
+ 
+?>

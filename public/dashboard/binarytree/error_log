@@ -1,0 +1,16 @@
+[07-Feb-2020 16:44:17 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Lomy1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[07-Feb-2020 17:00:26 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Lomy1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[07-Feb-2020 20:08:19 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Lomy1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[07-Feb-2020 21:19:28 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Lomy1): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[09-Feb-2020 00:54:37 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Fide): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[09-Feb-2020 03:21:19 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Fide): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[09-Feb-2020 03:21:26 UTC] PHP Warning:  file_get_contents(http://localhost/Daypayz/public_html/dashboard/binary.php?username=Fide): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14
+[09-Feb-2020 03:23:46 UTC] PHP Warning:  file_get_contents(http://daypayz.com.ng/dashboard/binary.php?username=Fide): failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+ in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/binarytree/tree.php on line 14

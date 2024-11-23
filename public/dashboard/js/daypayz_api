@@ -1,0 +1,16 @@
+function validateNetwork(net,pack) {
+    
+        if (net.length == 0) { 
+            document.getElementById("amount").innerHTML = "";
+            return;
+        } else if(net == '1'){
+            document.getElementById("amount").innerHTML = "<option selected>Select amount</option><option value='999'> 1.5GB (N1000)</option><option value='1999'>3.5GB (N2000)</option><option value='2499'>5GB (2850)</option><option value='4999'>7GB (N5000)</option><option value='7999'>16GB (N8100)</option><option value='9999'>22GB (N10050)</option>";
+        }else if(net == '2'){
+            document.getElementById("amount").innerHTML = "<option selected>Select amount</option><option value='1000'>1GB (N500)</option><option value='2000'>2GB (N1000)</option><option value='5000'>5GB (N2400)</option>";
+        }else if(net == '3'){
+           document.getElementById("amount").innerHTML = "<option selected>Select amount</option><option value='1600.01'>2GB (N1000)</option><option value='3750.01'>4.5GB (N1900)</option><option value='5000.01'>7.2GB (N2250)</option><option value='6000.01'>8.75GB (N2700)</option><option value='8000.01'>12.5GB (N3550)</option><option value='12000.01'>15.6GB (N4400)</option><option value='16000.01'>25GB (N6950)</option><option value='30000.01'>52.5GB (N12900)</option><option value='45000.01'>62.5GB (N15450)</option>";
+        }else if(net == '4'){
+            document.getElementById("amount").innerHTML = "<option selected>Select amount</option><option value='500.01'>500MB (N500)</option><option value='1000.01'>1GB (N1000)</option><option value='1500.01'>1.5GB (N1350)</option><option value='2500.01'>2.5GB (N2200)</option><option value='4000.01'>4GB (N3000)</option><option value='5500.01'>5.5GB (N4000)</option><option value='11500.01'>11.5GB (N8000)</option><option value='15000.01'>15GB (N10000)</option><option value='27000.01'>27.5GB (N18500)</option>";
+        
+    }
+}

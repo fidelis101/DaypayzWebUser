@@ -1,0 +1,42 @@
+[30-Mar-2019 16:10:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:10:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 16:12:11 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:12:11 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 16:15:08 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:15:08 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 16:16:15 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:16:15 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 16:17:58 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:17:58 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 16:25:26 UTC] PHP Parse error:  syntax error, unexpected '$email' (T_VARIABLE) in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 58
+[30-Mar-2019 16:25:57 UTC] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 10
+[30-Mar-2019 16:25:57 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 11
+[30-Mar-2019 17:27:31 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_fetch_accoc() in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php:14
+Stack trace:
+#0 {main}
+  thrown in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 14
+[30-Mar-2019 17:28:16 Africa/Lagos] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 29
+[30-Mar-2019 17:28:22 Africa/Lagos] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 29
+[30-Mar-2019 17:30:35 Africa/Lagos] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 29
+[30-Mar-2019 17:31:57 Africa/Lagos] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 29
+[30-Mar-2019 17:33:10 Africa/Lagos] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, boolean given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 29
+[30-Mar-2019 18:22:24 Africa/Lagos] PHP Warning:  substr() expects parameter 2 to be integer, string given in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 19
+[30-Mar-2019 20:35:59 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function curl_get_contents() in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php:9
+Stack trace:
+#0 {main}
+  thrown in /home3/daypayzc/public_html/dashboard/receipt/cable_sub.php on line 9
+[04-Apr-2019 00:11:57 Africa/Lagos] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[04-Apr-2019 00:11:57 Africa/Lagos] PHP Warning:  simplexml_load_string(): ERROR: Product Type not set in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[04-Apr-2019 00:11:57 Africa/Lagos] PHP Warning:  simplexml_load_string(): ^ in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[17-May-2019 09:39:03 Africa/Lagos] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[17-May-2019 09:39:03 Africa/Lagos] PHP Warning:  simplexml_load_string(): ERROR: Product Type not set in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[17-May-2019 09:39:03 Africa/Lagos] PHP Warning:  simplexml_load_string(): ^ in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[10-Jun-2019 08:21:24 Africa/Lagos] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[10-Jun-2019 08:21:24 Africa/Lagos] PHP Warning:  simplexml_load_string(): ERROR: Product Type not set in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[10-Jun-2019 08:21:24 Africa/Lagos] PHP Warning:  simplexml_load_string(): ^ in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): ERROR: Product Type not set in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): ^ in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): Entity: line 1: parser error : Start tag expected, '&lt;' not found in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): ERROR: Product Type not set in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13
+[29-Jun-2019 13:49:59 Africa/Lagos] PHP Warning:  simplexml_load_string(): ^ in /home3/daypayzc/public_html/dashboard/receipt/electric_sub.php on line 13

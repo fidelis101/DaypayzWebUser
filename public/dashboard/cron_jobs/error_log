@@ -1,0 +1,39 @@
+[06-Jul-2020 08:16:09 UTC] PHP Parse error:  syntax error, unexpected '$basePath' (T_VARIABLE) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 5
+[06-Jul-2020 08:17:20 UTC] PHP Parse error:  syntax error, unexpected '$basePath' (T_VARIABLE) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 5
+[06-Jul-2020 09:17:48 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 15
+[06-Jul-2020 08:18:31 UTC] PHP Parse error:  syntax error, unexpected ')' in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 14
+[06-Jul-2020 10:42:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 109
+[06-Jul-2020 10:42:58 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php:143
+Stack trace:
+#0 /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php(112): refundCustomer('Fide', '500', 'Debit: Data Sub...', '5efca347e0ae4')
+#1 {main}
+  thrown in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:46:07 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php:143
+Stack trace:
+#0 /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php(112): refundCustomer('Fide', '500', 'Debit: Data Sub...', '5efca347e0ae4')
+#1 {main}
+  thrown in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:48:39 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:48:39 Africa/Lagos] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:48:41 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:48:41 Africa/Lagos] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, null given in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 143
+[06-Jul-2020 10:50:35 Africa/Lagos] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/dbcon.php on line 3
+[06-Jul-2020 10:03:43 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 37
+[06-Jul-2020 10:04:16 UTC] PHP Parse error:  syntax error, unexpected '{' in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 37
+[06-Jul-2020 10:56:37 UTC] PHP Parse error:  syntax error, unexpected '$totalbonuspaid' (T_VARIABLE) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 274
+[06-Jul-2020 10:57:04 UTC] PHP Parse error:  syntax error, unexpected '$userresult' (T_VARIABLE) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 362
+[06-Jul-2020 10:57:53 UTC] PHP Parse error:  syntax error, unexpected '$userresult' (T_VARIABLE) in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 362
+[06-Jul-2020 11:57:58 Africa/Lagos] PHP Fatal error:  Uncaught Error: Class 'Logger' not found in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/dbcon.php:10
+Stack trace:
+#0 /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php(4): include()
+#1 {main}
+  thrown in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/dbcon.php on line 10
+[07-Jul-2020 01:34:02 Africa/Lagos] PHP Warning:  include(/Handlers/TransactionHistoryHandler.php): failed to open stream: No such file or directory in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 01:34:02 Africa/Lagos] PHP Warning:  include(/Handlers/TransactionHistoryHandler.php): failed to open stream: No such file or directory in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 01:34:02 Africa/Lagos] PHP Warning:  include(): Failed opening '/Handlers/TransactionHistoryHandler.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 00:34:32 UTC] PHP Parse error:  syntax error, unexpected end of file in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 77
+[07-Jul-2020 01:41:58 Africa/Lagos] PHP Warning:  include(./Handlers/TransactionHistoryHandler.php): failed to open stream: No such file or directory in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 01:41:58 Africa/Lagos] PHP Warning:  include(./Handlers/TransactionHistoryHandler.php): failed to open stream: No such file or directory in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 01:41:58 Africa/Lagos] PHP Warning:  include(): Failed opening './Handlers/TransactionHistoryHandler.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 4
+[07-Jul-2020 01:41:58 Africa/Lagos] PHP Warning:  require_once(./logger.php): failed to open stream: No such file or directory in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 5
+[07-Jul-2020 01:41:58 Africa/Lagos] PHP Fatal error:  require_once(): Failed opening required './logger.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home2/daypayzi/daypayz.com.ng/TestProject/dashboard/cron_jobs/tran_updater.php on line 5
